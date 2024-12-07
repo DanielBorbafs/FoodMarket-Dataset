@@ -1,3 +1,6 @@
+CREATE DATABASE [FOOD MARKET]
+
+
 CREATE TABLE VENDAS(
 	[id venda] int primary key identity(1,1),
 	[mês venda] varchar(16),
@@ -13,3 +16,4 @@ CREATE TABLE VENDAS(
 	valorBruto money
 )
 go
+
